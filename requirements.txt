@@ -1,0 +1,15 @@
+# Core (versions are lower bounds; the notebook was run on Colab with the latest releases)
+torch>=2.1
+transformers>=4.44
+accelerate>=0.33
+bitsandbytes>=0.43        # 4-bit (NF4) loading of the Mistral teacher; needs an NVIDIA GPU
+datasets>=2.20
+huggingface_hub>=0.24
+sentencepiece>=0.2        # Mistral tokenizer
+numpy>=1.24
+matplotlib>=3.7
+tqdm>=4.66
+
+# Only needed to run the notebook locally (Colab already has these)
+jupyterlab>=4.0
+ipywidgets>=8.0
