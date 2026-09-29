@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Training artifacts (large, live on Google Drive / Hugging Face Hub instead)
+checkpoints/
+final_model/
+*.pt
+*.safetensors
+*.bin
+
+# Secrets
+.env
+*.token
